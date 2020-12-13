@@ -17,6 +17,15 @@ body { background: #fff; }
   text-align: center;
 }
 
+.display-photo {
+  height: 50%;
+  width: 70%;
+}
+.display-photo img {
+  height: inherit;
+  width: inherit;
+}
+
 .scrolldown a {
    position: absolute;
    bottom: 30px;
@@ -100,7 +109,6 @@ ul#nav li a {
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
-
 
 .banner h1 {
   font: 90px/1.1em 'opensans-bold', sans-serif;
@@ -255,4 +263,8 @@ ul#nav li.current a { color: #F06000; }
 
 .copyright p {
   color: #7A7A7A;
+}
+
+.sub-title p {
+  font-size: 20px;
 }
